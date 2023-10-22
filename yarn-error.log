@@ -1,0 +1,36 @@
+Arguments: 
+  /home/alex332233/.nvm/versions/node/v18.16.0/bin/node /mnt/c/Users/USER/AppData/Roaming/npm/node_modules/yarn/bin/yarn.js add @openzeppelin/contracts/token
+
+PATH: 
+  /home/alex332233/.vscode-server/bin/f1b07bd25dfad64b0167beb15359ae573aecd2cc/bin/remote-cli:/home/alex332233/.nvm/versions/node/v18.16.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/USER/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/USER/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/USER/AppData/Roaming/Python/Python311/Scripts:/mnt/c/Users/USER/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Python311:/mnt/c/Users/USER/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/USER/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Python311/Scripts:/mnt/c/users/user/.local/bin:/mnt/c/users/user/appdata/roaming/python/python310/scripts:/mnt/c/Users/USER/AppData/Roaming/npm:/mnt/c/Users/USER/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/snap/bin:/home/alex332233/.foundry/bin:/home/alex332233/.foundry/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@openzeppelin%2fcontracts/token: Request "https://registry.yarnpkg.com/@openzeppelin%2fcontracts/token" returned a 405
+      at params.callback [as _callback] (/mnt/c/Users/USER/AppData/Roaming/npm/node_modules/yarn/lib/cli.js:66154:18)
+      at self.callback (/mnt/c/Users/USER/AppData/Roaming/npm/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/mnt/c/Users/USER/AppData/Roaming/npm/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/mnt/c/Users/USER/AppData/Roaming/npm/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
