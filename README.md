@@ -3,9 +3,9 @@ For the contracts in 7-1 and 7-2 folders, we can deploy the contracts in each fo
 For RandomNFT500.sol in 7-2 folder, we need to give the URIs while deployed. Get the URI in Metadata folder.
 
 # Metadata
-NONFT.json are metadata for Hw7-1 NONFT.sol contract.
-blinkbox.json is the metadata for Hw7-2 RandomNFT500.sol contract.
-stringArray.py is just a file for storing blindboxURI and unboxURI for the constructor.
+The NONFT.json are metadata for Hw7-1 NONFT.sol contract.
+The blinkbox.json is the metadata for Hw7-2 RandomNFT500.sol contract.
+The stringArray.py is just a file for storing blindboxURI and unboxURI for the constructor. The first array in the file is for the unboxedURI, which is a string[] in the contract. For the second array, the first element is the blindbox image url and the second element is the blindbox tokenURI metadata.
 
 # 7-1 NONFT and Receiver
 ## General.sol
